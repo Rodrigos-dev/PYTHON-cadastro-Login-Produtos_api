@@ -1,10 +1,31 @@
-# DRF Python cadastro Login Produtos feito com DRF
-*DOCKER
-*cadastro usuarios, *cadastro avatar relacao one to one com usuario, *cadastro produto relacao onte to many com usuario
-*login, token, *refresh token
-Api feita com Python e usando o framework django-rest-framework, api com cadastro de usuários, login, mysql , relação onte - to - one , many to many e cadastro de produtos por usuário
+# 🐍 API de Cadastro, Login e Produtos com Django REST Framework
 
-**********************
+Este repositório contém uma API robusta desenvolvida com **Python** e **Django REST Framework (DRF)**, com suporte completo a **cadastro de usuários com avatar**, **login com JWT (access e refresh token)**, e **cadastro de produtos por usuário**, utilizando **MySQL** como banco de dados e **Docker** para orquestração de ambiente.
+
+---
+
+## 🚀 Funcionalidades
+
+- ✅ Cadastro de usuários
+- 🖼️ Upload de avatar com relação **OneToOne** com o usuário
+- 🔐 Autenticação com JWT (access e refresh tokens)
+- 📦 Cadastro de produtos com relação **ManyToOne** com o usuário
+- 🐳 Ambiente completo com Docker + Docker Compose
+- 🗃️ Banco de dados MySQL
+- 📦 Relações OneToOne e ManyToOne implementadas
+
+---
+
+## 🧰 Tecnologias Utilizadas
+
+- [Python 3.11+](https://www.python.org/)
+- [Django](https://www.djangoproject.com/)
+- [Django REST Framework](https://www.django-rest-framework.org/)
+- [MySQL](https://www.mysql.com/)
+- [Docker & Docker Compose](https://www.docker.com/)
+- [JWT Authentication](https://jwt.io/)
+
+---
 
 rodar com Docker
 
